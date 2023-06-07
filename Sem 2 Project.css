@@ -1,0 +1,232 @@
+/*------------- navbar brand------ */
+.navbar-brand{font-family: 'vs code';
+    font-weight: bold; font-size: 2.5rem; 
+    }
+    
+    .nav-item{
+        
+        padding-left: 10%;
+        padding-right: 15%;
+    }
+    .nav-link{font-size: 1.3rem; font-family:'Montserrat-light', sans-serif; 
+   }
+    .navbar{
+            background-color:grey;
+        padding: 0 0 0rem;
+    }
+
+    /*-----------About Us------*/
+#About{
+    background-image: url("https://st5.depositphotos.com/2885805/65203/v/1600/depositphotos_652036746-stock-illustration-foreign-language-learning-flat-icon.jpg");
+    height: 80vh;
+    background-size: 850px 750px;
+    background-position: center;
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+  
+  
+    
+      
+}
+
+
+
+    .AboutUs{ 
+        font-style:normal;
+        font-weight: bold;
+        font-size: xx-large;      
+        text-align: center;
+        padding: 5% 6%;
+        position:relative;
+        z-index: 1;
+        
+     
+    }
+
+    /*------Login-----*/
+    body
+{
+    margin: 0;
+    padding: 0;
+    background-color:black;
+    font-family: 'Arial';
+}
+.login{
+        width: 382px;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 50px;
+        background:grey;
+        border-radius: 15px ;
+
+}
+h2{
+    text-align: center;
+    color: black;
+    padding: 20px;
+}
+label{
+    color: whitesmoke;
+    font-size: 17px;
+}
+#Uname{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+}
+#Pass{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 3px;
+    padding-left: 8px;
+
+}
+#log{
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 17px;
+    padding-left: 1px;
+    color:black;
+
+
+}
+span{
+    color: white;
+    font-size: 17px;
+}
+a{
+    float:center;
+    
+   
+}
+    
+        /*----------Search-------*/
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+*:not(i) {
+    font-family: "vs code", sans-serif;
+}
+body {
+    background-color: #fcfcfd;
+}
+.container {
+    background-color: #ffffff;
+    width: 90vmin;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    padding: 80px 50px;
+    border-radius: 10px;
+    box-shadow: 0 20px 40px rgba(38, 33, 61, 0.2);
+}
+.search-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.search-box input {
+    padding: 5px;
+    width: 70%;
+    border: none;
+    outline: none;
+    border-bottom: 3px solid #ae9cff;
+    font-size: 16px;
+}
+.search-box button {
+    padding: 15px 0;
+    width: 25%;
+    background-color: #ae9cff;
+    border: none;
+    outline: none;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.result {
+    position: relative;
+}
+.result h3 {
+    font-size: 30px;
+    color: #1f194c;
+}
+.result .word {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+.result button {
+    background-color: transparent;
+    color: #ae9cff;
+    border: none;
+    outline: none;
+    font-size: 18px;
+}
+.result .details {
+    display: flex;
+    gap: 10px;
+    color: #0013e3;
+    margin: 5px 0 20px 0;
+    font-size: 14px;
+}
+.word-meaning {
+    color: #051087;
+}
+.word-example {
+    color: #01041f;
+    font-style: italic;
+    border-left: 5px solid #ae9cff;
+    padding-left: 20px;
+    margin-top: 30px;
+}
+.error {
+    margin-top: 80px;
+    text-align: center;
+}
+/*------Languages-----*/
+
+
+
+
+
+
+
+
+/*------------Footer---------*/
+#Footer{
+        
+    font-weight: normal;
+/*text-decoration: underline;*/
+    color: grey;
+    background-color: black;
+    text-align: center;
+    padding-top: 4%;
+    padding-bottom: 4%;
+    font-size: larger;
+}
+
+.footer_menu li,.Footer_contact li {
+    list-style-type: none;
+margin: 0px;
+padding: 0 20px 0 0;
+/*display: inline;*/
+}
+
+
+.footer_menu li a {
+color: white;
+}
+
+.Footer_contact li a{
+    color: whitesmoke;
+}
+
+
+
